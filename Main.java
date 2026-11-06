@@ -32,5 +32,7 @@ public class Main {
         Smartphone Telephone = new Smartphone("Pixel Pro", 5000);
         Telephone.obtenirFicheTechnique();
 
+        // Exercice 5
+
     }
 }

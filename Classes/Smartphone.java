@@ -6,12 +6,12 @@ public class Smartphone {
     String modele;
     BatterieInterne batterie;
 
-    public Smartphone(String modele, int batterie){
+    public Smartphone(String modele, int capacite){
         this.modele = modele;
-        this.batterie = new BatterieInterne(batterie);
+        batterie = new BatterieInterne(capacite);
     }
 
     public void obtenirFicheTechnique(){
-        System.out.println("Smartphone " + this.modele + " équipé d'une batterie scellée de " + this.batterie + " mAh.");
+        System.out.println("Smartphone " + this.modele + " équipé d'une batterie scellée de " + batterie.getCapaciteMah() + " mAh.");
     }
 }

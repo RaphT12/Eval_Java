@@ -3,11 +3,11 @@ package Classes;
 public class BatterieInterne {
     int capaciteMah;
 
-    public BatterieInterne(int capaciteMah){
-        this.capaciteMah = capaciteMah;
+    public BatterieInterne(int capacite){
+        this.capaciteMah = capacite;
     }
 
-    public void getCapaciteMah(){
-        System.out.println(this.capaciteMah);
+    public int getCapaciteMah(){
+        return this.capaciteMah;
     }
 }
