@@ -1,8 +1,8 @@
 package Classes;
 
 public class ArticleStock {
-    String name = "";
-    int quantite = 0;
+    String name;
+    int quantite;
 
     public ArticleStock(String name, int quantite){
         this.name = name;
