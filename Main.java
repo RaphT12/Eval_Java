@@ -28,5 +28,9 @@ public class Main {
         Appart1.decrire();
         Appart1.calculerPrixSejour(4);
 
+        // Exercice 4
+        Smartphone Telephone = new Smartphone("Pixel Pro", 5000);
+        Telephone.obtenirFicheTechnique();
+
     }
 }
